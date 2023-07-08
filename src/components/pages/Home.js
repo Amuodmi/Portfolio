@@ -1,5 +1,6 @@
 import React from "react";
-import Video from "../../images/WebsiteVideo.mp4";
+// import Video from "../../images/WebsiteVideo.mp4";
+import Beach from "../../images/beach.jpeg";
 import { NameSVG } from "../../components/namesvg";
 
 function Home() {
@@ -33,12 +34,12 @@ function Home() {
 
 			<div className="vl"></div>
 			<video
-				poster="../../images/beach.jpeg"
+				poster={Beach}
 				autoPlay={true}
 				playsInline={true}
 				loop={true}
 				muted={true}
-				src={Video}
+				// src={Video}
 				type="video/mp4"
 				className="websiteVideo"
 				alt="video for website"
