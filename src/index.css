@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--primary: #8bffdc;
+	--secondary: #04c689;
+	--tertiary: #fad1976d;
+	--light: #fafafa;
+	--dark: #000000;
+	--darker: #111111;
+	--error: rgb(228, 46, 1);
+	--spacing-one: calc(1rem * 0.5);
+	--spacing-two: calc(1rem);
+	--spacing-five: calc(2.5rem);
+}
+
+html,
+body {
+	min-height: 100%;
+}
+
+svg {
+	background-color: rgba(249, 244, 244, 0);
+	position: absolute;
+	margin-bottom: auto;
+	margin-top: 20px;
+	margin-left: 20px;
+	z-index: 1;
+}
+
+h3 {
+	margin-bottom: 50px;
+}
+
+.navBar {
+	background-color: rgba(22, 22, 22, 0);
+	position: absolute;
+	margin-top: 10%;
+	margin-bottom: auto;
+	margin-left: 20px;
+	margin-right: 0;
+	z-index: 1;
+}
+
+.navBarText {
+	color: rgb(236, 231, 236);
+	text-decoration: none;
+	font-family: Alex + Brush;
+	font-size: medium;
+	z-index: 0;
+	transition: margin-left 2s;
+}
+
+.navBarText:hover {
+	color: #ffccff;
+	cursor: pointer;
+	margin-left: 25px;
+}
+
+.vl {
+	position: absolute;
+	background-color: rgba(22, 22, 22, 0);
+	margin-bottom: auto;
+	margin-right: 0;
+	border-left: 1.5px solid rgb(236, 231, 236);
+	height: 300px;
+	left: 25%;
+	margin-left: -10%;
+	top: 22%;
+	z-index: 1;
+}
+
+.websiteVideo {
+	filter: brightness(75%);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	line-height: 1.5;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	font-family: "Bodoni Moda", sans-serif;
+}
+
+.footer {
+	height: 10vh;
+	color: #090909;
+}
