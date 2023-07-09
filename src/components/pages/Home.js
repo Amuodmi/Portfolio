@@ -28,8 +28,11 @@ function Home() {
 	return (
 		<div>
 			<div className="container">
-				{/* <div className="cover-bgItem"> */}
-				<NameSVG />
+				<div>
+					<a href="/">
+						<NameSVG />
+					</a>
+				</div>
 				<div className="navBar">
 					<h3>
 						<a className="navBarText" href={ResumeFile} download>
