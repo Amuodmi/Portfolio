@@ -19,7 +19,7 @@
 
 html,
 body {
-	min-height: 100%;
+	height: 100%;
 }
 
 svg {
@@ -73,7 +73,7 @@ h3 {
 	height: 300px;
 	left: 25%;
 	margin-left: -10%;
-	top: 22%;
+	top: 17%;
 	z-index: 1;
 }
 
@@ -89,7 +89,7 @@ h3 {
 .aboutText {
 	position: absolute;
 	text-align: center;
-	top: 120px;
+	top: 170px;
 	right: 80px;
 	color: white;
 }
@@ -99,21 +99,73 @@ h3 {
 	border-radius: 25px;
 	top: 120px;
 	left: 350px;
-	/* filter: blur(20px); */
 }
 
-/* .profilePhoto::before {
+.skillsLayout {
+	display: flex;
 	position: absolute;
-	z-index: -1;
-	top: 1.5em;
-	right: 1.5em;
-	bottom: 1.5em;
-	left: 1.5em;
-	border: inherit;
-	background-color: transparent;
-	background-clip: border-box;
-	content: " ";
-} */
+	top: 150px;
+	left: 330px;
+}
+
+.skillsLayout2 {
+	display: flex;
+	position: absolute;
+	top: 280px;
+	left: 330px;
+}
+
+.projectsLayout {
+	display: flex;
+	position: absolute;
+	top: 100px;
+	left: 330px;
+	flex-direction: column;
+}
+.Bash,
+.Handle {
+	height: 100px;
+	width: 100px;
+	top: 10px;
+	right: 30px;
+}
+
+.Boots,
+.Bulma,
+.CSS,
+.Express,
+.Figma,
+.Git,
+.Graph,
+.Heroku,
+.Jest,
+.Jquery,
+.Mongo,
+.MySql,
+.Node,
+.React,
+.Redux,
+.Sequelize {
+	height: 100px;
+	width: 100px;
+	margin-left: 30px;
+}
+
+.Gift {
+	height: auto;
+	width: 700px;
+	top: 0px;
+	margin-left: 60px;
+	border-radius: 25px;
+}
+
+.Music {
+	height: auto;
+	width: 700px;
+	margin-top: 30px;
+	margin-left: 60px;
+	border-radius: 25px;
+}
 
 body {
 	margin: 0;

@@ -47,7 +47,7 @@ function Home() {
 						<a
 							className="navBarText"
 							href="#PreviousProjects"
-							onClick={() => setCurrentPage("PreviousProjects")}
+							onClick={() => setCurrentPage("Projects")}
 						>
 							Previous Projects
 						</a>
