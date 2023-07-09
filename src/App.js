@@ -1,7 +1,11 @@
 import React from "react";
-import Portfolio from "./components/Portfolio";
+import Home from "./components/pages/Home";
 import "./index.css";
 
-const App = () => <Portfolio />;
+const App = () => (
+	<div>
+		<Home />
+	</div>
+);
 
 export default App;
