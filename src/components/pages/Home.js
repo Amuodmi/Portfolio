@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import Resume from "./Resume";
+import ResumeFile from "../../resume/Michelle_Douma_Resume_2023.pdf";
 import Skills from "./Skills";
 // import Video from "../../images/WebsiteVideo.mp4";
 import Beach from "../../images/beach.jpeg";
@@ -20,9 +20,6 @@ function Home() {
 		if (currentPage === "Skills") {
 			return <Skills />;
 		}
-		if (currentPage === "Resume") {
-			return <Resume />;
-		}
 		if (currentPage === "Contact") {
 			return <Contact />;
 		}
@@ -35,11 +32,7 @@ function Home() {
 				<NameSVG />
 				<div className="navBar">
 					<h3>
-						<a
-							className="navBarText"
-							href="#Resume"
-							onClick={() => setCurrentPage("Resume")}
-						>
+						<a className="navBarText" href={ResumeFile} download>
 							Resume
 						</a>
 					</h3>
