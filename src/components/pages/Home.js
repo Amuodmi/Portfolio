@@ -30,7 +30,7 @@ function Home() {
 
 	return (
 		<div>
-			<div class="container">
+			<div className="container">
 				{/* <div className="cover-bgItem"> */}
 				<NameSVG />
 				<div className="navBar">
@@ -83,7 +83,7 @@ function Home() {
 					className="websiteVideo"
 					alt="video for website"
 				/>
-				<div class="aboutText">{renderPage()}</div>
+				<div>{renderPage()}</div>
 			</div>
 		</div>
 	);

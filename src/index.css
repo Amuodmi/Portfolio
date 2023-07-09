@@ -88,10 +88,32 @@ h3 {
 
 .aboutText {
 	position: absolute;
-	top: 8px;
-	right: 16px;
+	text-align: center;
+	top: 120px;
+	right: 80px;
 	color: white;
 }
+
+.profilePhoto {
+	position: absolute;
+	border-radius: 25px;
+	top: 120px;
+	left: 350px;
+	/* filter: blur(20px); */
+}
+
+/* .profilePhoto::before {
+	position: absolute;
+	z-index: -1;
+	top: 1.5em;
+	right: 1.5em;
+	bottom: 1.5em;
+	left: 1.5em;
+	border: inherit;
+	background-color: transparent;
+	background-clip: border-box;
+	content: " ";
+} */
 
 body {
 	margin: 0;
@@ -101,9 +123,4 @@ body {
 	font-size: 18px;
 	letter-spacing: 0.1em;
 	font-family: "Bodoni Moda", sans-serif;
-}
-
-.footer {
-	height: 10vh;
-	color: #090909;
 }
