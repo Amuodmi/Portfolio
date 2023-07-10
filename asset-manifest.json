@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a9d98461.css",
-    "main.js": "/Portfolio/static/js/main.eb490664.js",
+    "main.js": "/Portfolio/static/js/main.97694d41.js",
     "static/js/787.866b95ed.chunk.js": "/Portfolio/static/js/787.866b95ed.chunk.js",
     "static/media/beach.jpeg": "/Portfolio/static/media/beach.0a7acca2e991dadc5e52.jpeg",
     "static/media/giftyouUp.png": "/Portfolio/static/media/giftyouUp.284d74f130a5a1617ef8.png",
     "static/media/musicboximage.png": "/Portfolio/static/media/musicboximage.62daf312b5221843bccd.png",
-    "static/media/Michelle_Douma_Resume_2023.pdf": "/Portfolio/static/media/Michelle_Douma_Resume_2023.2aa577eaa04877ae763e.pdf",
+    "static/media/Michelle_Douma_Resume_2023.pdf": "/Portfolio/static/media/Michelle_Douma_Resume_2023.6dedf49415f19af0f485.pdf",
     "static/media/profilePhoto.jpg": "/Portfolio/static/media/profilePhoto.811a0cc8f290ffe816ef.jpg",
     "static/media/mongodb.svg": "/Portfolio/static/media/mongodb.6835c61a518a732eb8318d43dfe8f700.svg",
     "static/media/jquery.svg": "/Portfolio/static/media/jquery.1f9df0e960ed8649a166c78a1727b2a1.svg",
@@ -28,11 +28,11 @@
     "static/media/css.svg": "/Portfolio/static/media/css.4f50b33af1d2115e9ee75ed4b1570e17.svg",
     "static/media/bulma.svg": "/Portfolio/static/media/bulma.9e3d07b328bc7a1704c8822dbb9dc8eb.svg",
     "main.a9d98461.css.map": "/Portfolio/static/css/main.a9d98461.css.map",
-    "main.eb490664.js.map": "/Portfolio/static/js/main.eb490664.js.map",
+    "main.97694d41.js.map": "/Portfolio/static/js/main.97694d41.js.map",
     "787.866b95ed.chunk.js.map": "/Portfolio/static/js/787.866b95ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9d98461.css",
-    "static/js/main.eb490664.js"
+    "static/js/main.97694d41.js"
   ]
 }
